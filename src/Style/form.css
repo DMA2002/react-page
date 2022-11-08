@@ -1,0 +1,83 @@
+.form{
+    width: 60%;
+    height: 90vh;
+    margin: 3% auto;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1em;
+}
+.bien{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 2em;
+}
+.ben{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.design img{
+    width: 60%;
+    height: 30vh;
+    margin-left: 5em;
+}
+
+
+.design {
+    width: 50%;
+    background: linear-gradient(45deg, #009ffd, #2a2a72);
+    
+}
+.champ{
+    width: 50%;
+    margin: 1em;
+   
+   
+}
+
+i{
+    position: absolute;
+    color: gray;
+    left: 10px;
+    top: 8px;
+}
+.user{
+    position: relative;
+    margin: 1em;
+    margin-left: 3em;
+
+}
+select, .user input{ 
+    text-align: center;
+    width: 85%;
+    height: 5.5vh;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: 1px solid gray;
+
+}
+
+.lien{
+    position: relative;
+    left: 70%;
+    font-size: 1.1em;
+    color: black;
+}
+button, .button{
+    background: #009ffd;
+    color: white;
+    border: none;
+    padding: 0.9em;
+    border-radius: 2em;
+    font-size: 1em;
+    text-decoration: none;
+}
+button:hover{
+    background: white;
+    color: #009ffd;
+    border:1px solid #009ffd;
+    border-radius: 2em;
+}
+   

@@ -1,0 +1,39 @@
+.connect{
+    width: 60%;
+    height: 60vh;
+    border-radius: 1em;
+    
+    display: flex;
+    margin: 5em auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+   
+    
+}
+.secour{
+    width: 50%;
+    height: 100%;
+    background-image: url("../Images/secour.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.saisi p{
+    font-size: 2em;
+    margin-top: 2em;
+    color:  #2a2a72;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.saisi{
+    width: 50%;
+    height: 100%;
+   
+}
+.saisi .user{
+  top: 3em;
+}
+
+

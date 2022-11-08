@@ -1,0 +1,21 @@
+.pathologie{
+    width: 35%;
+    height: 80vh;
+    border: 1px solid blue;
+    margin: 3em;
+    border-radius: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+textarea{
+    width: 85%;
+    
+}
+.intro{
+    margin: 1em;
+    font-size: 1.5em;
+    
+}
+.user label{
+    font-size: 1.2em;
+    color: gray;
+}

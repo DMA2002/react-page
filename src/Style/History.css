@@ -1,0 +1,227 @@
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    /* Les bordures du tableau seront collées (plus joli) */
+}
+.table th {
+    height: 9vh;
+}
+.table td /* Toutes les cellules des tableaux... */
+{
+   border-bottom: 2px solid #f6f6f6;
+   height: 8vh;
+   text-align: center;
+}
+table thead .id_product {
+    width: 8%;
+}
+table thead .image_prod {
+    width: 15%;
+}
+table thead .qtn_prod {
+    width: 15%;
+}
+table thead .prix_prod {
+    width: 11%;
+}
+table thead .status_prod {
+    width: 15%;
+}
+table tbody .image_div {
+    /* height: 8vh; */
+    width: 100%;
+    overflow: hidden;
+    padding: 0.2em;
+}
+table tbody .image_div img {
+    width: 100%;
+    width: 100%;
+}
+table tbody .nom_prod {
+    padding-left: 0.5em;
+    text-align: left;
+}
+.form_category {
+    display: flex;
+    justify-content: center;
+}
+.formulaire_category {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: white;
+    width: 60%;
+    border-radius: 3px;
+    height: 70vh;
+    padding: 1em 2em;
+    margin: 2em 0;     
+}
+.formulaire_category .nom_tableau {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.formulaire_category .nom_tableau input{
+    height: 6vh;
+    width: 100%;
+    padding-left: 0.7rem;
+    outline-color: rgb(34, 34, 157);
+    border: 1px solid;
+    border-radius: 3px;
+}
+.formulaire_category .status_form {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 50%;
+}
+.formulaire_category .status_form select {
+    width: 100%;
+    height: 6vh;
+    border: 1px solid;
+    outline-color: blue;
+    padding-left: 0.7rem;
+    border-radius: 3px;
+}
+.formulaire_category .long_text {
+    width: 100%;
+    line-height: 2;
+}
+.formulaire_category .long_text textarea {
+    max-width: 100%;
+    min-height: 15vh;
+    min-width: 100%;
+    max-height: 15vh;
+    padding: 0.7em 1.1em;
+    height: 15vh;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    outline-color: blue;
+}
+
+.button_add {
+    width: 80%;
+}
+.button_add button {
+    background: blue;
+    width: 50%;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+ .category_div {
+    background: white;
+    padding: 1.2em;
+    margin: 2em 0;
+}
+.category_div .cat_titre {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2em;
+    /* background: red; */
+}
+.category_div .category_element {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+}
+.category_div .category_element .category_nb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+.category_div .category_element .category_nb select {
+    width: 45%;
+    height: 4vh;
+    outline-color: blue;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.category_div .category_element .category_search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.category_div .category_element .category_search input {
+    height: 5vh;
+    border-radius: 3px 0 0 3px;
+    border: 2px solid #f6f6f6;
+    width: 75%;
+    padding-left: 0.8em;
+    outline-color: black;
+}
+.category_div .category_element .category_search button {
+    width: 25%;
+    height: 4vh;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    background: black;
+   
+}
+.category_div .category_element .add_new {
+    height: 6vh;
+    background: blue;
+    width: 15%;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.category_div .category_element .add_lien {
+    text-decoration: none;
+    color: white;
+}
+table
+{
+   border-collapse: collapse;
+   width: 100%;
+   /* Les bordures du tableau seront collées (plus joli) */
+}
+.table th {
+    height: 9vh;
+}
+.table td /* Toutes les cellules des tableaux... */
+{
+   border-bottom: 2px solid #f6f6f6;
+   height: 8vh;
+   text-align: center;
+}
+table .id_category {
+    width: 12%;
+}
+table .nom_category {
+    width: 40%;
+}
+table .nom_cat {
+    text-align: left;
+}
+table .status_cat {
+    width: 15%;
+}
+table .action_button {
+    width: 18%;
+}
+.table thead {
+    background: rgba(15, 15, 236, 0.868);
+    color: white;
+}
+
+
+.table .tbody td .modifier_cat {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sup {
+   background: red;
+}

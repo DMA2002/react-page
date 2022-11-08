@@ -1,0 +1,33 @@
+.ima{
+    height: 85vh;
+    background-image: url("../Images/sante.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    
+
+}
+.col{
+    background: black;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    
+}
+.ima2{
+    position: absolute;
+    width:50%;
+    font-size: 2em;
+    top: 40%;
+    left: 25% ;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10px;
+}
